@@ -112,6 +112,6 @@ section h2{font-family:var(--serif); font-size:28px; font-weight:600; margin:10p
 .faq-item p{font-size:14px; color:var(--muted);}
 
 footer{padding:40px 0;}
-footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; font-size:13px; color:var(--muted);}
+footer .wrap.footer-center{display:flex; flex-direction:column; align-items:center; text-align:center; gap:6px; font-size:13px; color:var(--muted);}
 footer .mono{font-family:var(--mono);}
-footer .legal{font-size:12px; color:var(--muted); margin-top:18px;}
+footer .legal{font-size:12px; color:var(--muted); margin-top:12px;}
