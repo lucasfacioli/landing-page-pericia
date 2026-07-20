@@ -101,7 +101,17 @@ section h2{font-family:var(--serif); font-size:28px; font-weight:600; margin:10p
 .final .btn-primary{background:var(--gold); color:var(--navy);}
 .final .btn-secondary{border-color:rgba(255,255,255,0.5); color:#FFFFFF;}
 
+.scope-list{list-style:none; display:grid; grid-template-columns:1fr 1fr; gap:10px 24px; margin-top:28px; font-size:14px;}
+.scope-list li{padding-left:16px; position:relative; color:var(--muted);}
+.scope-list li::before{content:"—"; position:absolute; left:0; color:var(--gold-2);}
+@media (max-width:600px){ .scope-list{grid-template-columns:1fr;} }
+
+.faq-item{padding:20px 0; border-bottom:1px solid var(--line);}
+.faq-item:last-child{border-bottom:none;}
+.faq-item h3{font-size:15px; font-weight:600; margin-bottom:6px;}
+.faq-item p{font-size:14px; color:var(--muted);}
+
 footer{padding:40px 0;}
 footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; font-size:13px; color:var(--muted);}
 footer .mono{font-family:var(--mono);}
-footer .legal{font-size:12px; color:var(--muted); max-width:60ch; margin-top:18px;}
+footer .legal{font-size:12px; color:var(--muted); margin-top:18px;}
